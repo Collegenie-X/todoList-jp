@@ -1,5 +1,6 @@
 
 ## 가상 환경 
+> venv명령어를 통한 가상환경 셋팅입니다. 
 ```
 python -m venv venv
 ```
