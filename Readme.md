@@ -29,3 +29,21 @@ django-admin startproject config .
 ```
 python manage.py runserver
 ```
+
+
+### App 생성 
+
+```
+python manage.py startapp todo
+```
+
+### DB 생성 (반영) migrate  
+```
+python .\manage.py makemigrations
+python manage.py migrate   
+```
+
+#### Admin 페이지 제작
+```
+python manage.py createsuperuser
+```
